@@ -1,5 +1,9 @@
 testSuggests
 ============
+Для тестирования использовался python 3.4. Для установки зависимостей используйте pip
+
+pip install -r requirements.txt
+
 Для запуска тестов на разных браузерах используется Selenium-Grid.
 
 Запускаем hub:
@@ -10,3 +14,4 @@ java -jar selenium-server-standalone-2.40.0.jar -role webdriver -nodeConfig sele
 
 *Для chrome путь к драйверу:
 -Dwebdriver.chrome.driver=chromedriver.exe
+
